@@ -1,0 +1,136 @@
+// server.mjs
+import { createServer } from 'node:http';
+
+const server = createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World!\n');
+});
+
+// starts a simple http server locally on port 3000
+server.listen(3000, '127.0.0.1', () => {
+  console.log('Listening on 127.0.0.1:3000');
+});
+
+// run with `node server.mjs`
+[
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833239892428169",
+        "Bank": "CHASE",
+        "Name": "Sirja Hettinga",
+        "Address": "2231 Franklee Lane",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4043",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 9543
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4798515542624999",
+        "Bank": "CHASE",
+        "Name": "Selassie Kos",
+        "Address": "793 Sycamore Street",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4494",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 1317
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833248367380912",
+        "Bank": "CHASE",
+        "Name": "Onwuamaegbu Plaisance",
+        "Address": "2928 Bluff Street",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4134",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 3313
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833233012644755",
+        "Bank": "CHASE",
+        "Name": "Tigran Michalski",
+        "Address": "2247 Philadelphia Avenue",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4347",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 8364
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4798513235788551",
+        "Bank": "CHASE",
+        "Name": "Curtis Patterson",
+        "Address": "2733 Norman Street",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4398",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 2395
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833235709603317",
+        "Bank": "CHASE",
+        "Name": "Hafsa Johansson",
+        "Address": "2165 Mudlick Road",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4566",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 3798
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833247559307386",
+        "Bank": "CHASE",
+        "Name": "Kaarlo Gustavsson",
+        "Address": "1812 Maple Avenue",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4159",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 3721
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4798516674379386",
+        "Bank": "CHASE",
+        "Name": "Vzsony Lees",
+        "Address": "168 Russell Street",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4851",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 6415
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833244638907716",
+        "Bank": "CHASE",
+        "Name": "Spiridon Heilmann",
+        "Address": "1360 Sugarfoot Lane",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4855",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 5683
+    },
+    {
+        "IssuingNetwork": "VISA",
+        "CardNumber": "4833239892835660",
+        "Bank": "CHASE",
+        "Name": "Ezinne Sidorov",
+        "Address": "1361 Green Acres Road",
+        "Country": "UNITED STATES",
+        "MoneyRange": "$4713",
+        "CVV": "875",
+        "Expiry": "9/2032",
+        "Pin": 4847
+    }
+]
