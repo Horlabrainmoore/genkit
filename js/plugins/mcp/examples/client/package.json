@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@genkit-ai/googleai": "file:../../../googleai",
-    "@modelcontextprotocol/server-filesystem": "^0.5.1",
+    "@modelcontextprotocol/server-filesystem": "^2025.7.1",
     "@modelcontextprotocol/server-github": "^0.5.1",
     "genkit": "file:../../../../genkit",
     "genkitx-mcp": "file:../../"
