@@ -23,7 +23,7 @@
     "@opentelemetry/sdk-trace-base": "^1.25.0",
     "body-parser": "^1.20.3",
     "express": "^4.21.0",
-    "firebase-admin": ">=12.2",
+    "firebase-admin": ">=13.0.0",
     "genkit": "workspace:*",
     "partial-json": "^0.1.7"
   },
