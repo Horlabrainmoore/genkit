@@ -17,7 +17,7 @@
     "genkit": "^1.0.0-rc.14",
     "@genkit-ai/firebase": "^1.0.0-rc.14",
     "@genkit-ai/vertexai": "^1.0.0-rc.14",
-    "firebase-admin": "^12.2",
+    "firebase-admin": "^13.0.0",
     "firebase-functions": "^6.3.1"
   },
   "devDependencies": {
