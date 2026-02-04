@@ -29,7 +29,7 @@
     "@genkit-ai/google-cloud": "workspace:*",
     "@genkit-ai/googleai": "workspace:*",
     "@genkit-ai/vertexai": "workspace:*",
-    "firebase-admin": ">=12.2",
+    "firebase-admin": ">=13.0.0",
     "firebase-functions": "^6.3.1",
     "genkit": "workspace:*",
     "genkitx-chromadb": "workspace:*",
